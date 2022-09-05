@@ -1,0 +1,65 @@
+.search-style{
+    position: fixed;
+    height: 100%;
+    z-index: 1;
+    top: 1em;
+    overflow-x: hidden;
+    width: 300px;
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    /*min-width: 100%;*/
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.content-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    font-weight: bold;
+}
+.content-table th,
+.content-table td {
+    padding: 12px 0px;
+}
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+.content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+.map-container{
+    margin-left: 350px;
+    width: 75%;
+    height: 530px;
+    position: fixed;
+    overflow-x: hidden;
+}
+
+.location-style{
+    margin-left: 300px;
+    z-index: 1;
+}
+
+.jobs{
+    font-size: 18px;
+    height: 75px;
+    width: 300px;
+    margin: 10px;
+    border-style: outset;
+}
+
+.all-products{
+    margin-left: 350px;
+}
