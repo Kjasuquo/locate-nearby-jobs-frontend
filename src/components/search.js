@@ -17,7 +17,7 @@ export default function Search() {
     async function bylocation() {
         try {
             //for testing because there are no nigerian jobs in the database
-            // let url = `/?long=103.851&lat=1.30156&title=${title}`;
+            //let url = `/?long=103.851&lat=1.30156&title=${title}`;
 
             let url = `/?long=${long}&lat=${lat}&title=${title}`;
             const response = await instance.get(url);
@@ -112,7 +112,7 @@ export default function Search() {
                                 );
                             })
                         ) : (
-                            <p> No Job Near You</p>
+                            <p> Loading...</p>
                         )}
                 </div>
 
@@ -145,7 +145,7 @@ export default function Search() {
                                 );
                             })
                         ) : (
-                            <p>No Job found in your location</p>
+                            <p>Loading...</p>
                         )}
                         </tbody>
                     </table>
