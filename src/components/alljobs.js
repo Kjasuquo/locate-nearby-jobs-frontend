@@ -56,7 +56,7 @@ export default function ViewAllJobs() {
                                 );
                             })
                         ) : (
-                            <p> Loading...</p>
+                            <p> Job not found</p>
                         )}
                         </tbody>
                     </table>
